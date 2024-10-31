@@ -15,4 +15,7 @@ int main(){
     // quando terminar libere a memória
 
     delete[] p;
+   return 0;
+
+
 }
