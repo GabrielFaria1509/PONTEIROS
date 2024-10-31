@@ -5,12 +5,12 @@ struct Aluno{
     float media;
 };
 int main(){
-    //alocação dinâmica para o vetor de alunos
+   
     int n;
     int i , j;
     float soma;
  
-    Aluno *alunos = new Aluno[n];
+    Aluno *alunos = new Aluno[n]; //alocação dinâmica para o vetor de alunos
 
     //leitura das notas e cálculo das médias
     for( i =0; i < n; i++){
