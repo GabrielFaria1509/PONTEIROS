@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+struct Aluno{
+    float notas[4];
+    float media;
+};
+int main(){
+    //alocação dinâmica para o vetor de alunos
+    int n;
+    int i , j;
+    float soma;
+ 
+    Aluno *alunos = new Aluno[n];
+
+    //leitura das notas e cálculo das médias
+    for( i =0; i < n; i++){
+        soma = 0;
+        for( j = 0 ; j < 4; j++){
+            cin >> alunos[i].notas[j];
+            soma += alunos[i].notas[j];  //acumula a soma das notas
+        }
+        alunos[i].media = soma / 4.0; //calcula a média    
+    }
+
+   
+
+    return 0;
+
+}
