@@ -1,0 +1,3 @@
+(*p)++ //aumenta o conteúdo de uma variável apontada por p
+
+*(p+10); //utiliza o conteúdo do ponteiro x posições pra frente
