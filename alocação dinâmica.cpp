@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int *p = nullptr; //ponteiro para int  , inicialmente nulo
+    int *p = NULL; //ponteiro para int  , inicialmente nulo
     int n;
 
     cout << "Digite o tamanho do vetor ";
